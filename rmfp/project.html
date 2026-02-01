@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+
+<head>
+    <title>Math 8380, Spring 2026</title>
+</head>
+
+<body>
+
+<h3>Some potential project topics</h3>
+
+<p>
+This page is meant to lay out some ideas for project topics. If you have other ideas related to your own interests, I am more than happy to hear about them. I will likely add more suggestions to this page.
+</p>
+
+<h4>Combinatorics underlying random matrix models</h4>
+
+<p>
+Combinatorics of maps (graphs embedded in surfaces). This is the structure behind the genus expansion, and it is a very beautiful part of mathematics with many unexpected connections. Here is some relevant reading material:
+<ul>
+    <li>Sergei K. Lando and Alexander K. Zvonkin, <i>Graphs on surfaces and their applications</i>, Encyclopaedia of Mathematical Sciences, vol. 141, Springer-Verlag, Berlin, 2004.</li>
+    <li>J. Harer and D. Zagier, <i>The Euler characteristic of the moduli space of curves</i>, Invent. Math. <b>85</b> (1986), no. 3, 457-485.</li>
+    <li>There is a lot of more recent literature on bijective approaches to the Harer-Zagier recursion (the main result of the paper above). The common author seems to be Guillaume Chapuy, so search his name on arXiv.
+</ul>
+</p>
+
+<p>
+More on Weingarten calculus. We will cover the unitary case and its application to asymptotic freeness of random unitary matrices, but there is a much wider theory. It can be developed for other groups (notably the orthogonal group) and group-like objects (like compact quantum groups). Even in the unitary case, there are interesting connections with Jucys-Murphy elements, the combinatorics of permutation factorizations, and Hurwitz numbers.
+<ul>
+    <li>Benoit Collins, <i>Moment methods on compact groups: Weingarten calculus and its applications</i>, International Congress of Mathematicians, Vol. 4. Sections 5-8, EMS Press, Berlin, 2023, pp. 3142-3164. <a href=https://arxiv.org/abs/2207.08418>Available on arXiv.</a> <b>This is an excellent survey and I suggest starting here.</b></li> 
+    <li>For further combinatorial aspects of Weingarten calculus, see Section 2.6 of the survey above and follow the references.</li>
+    <li>The development of Weingarten calculus for the orthogonal group involves some more elaborate combinatorics: the Gelfand pair (S_{2k},H_k) and its associated zonal symmetric functions. See the following paper: Benoit Collins and Sho Matsumoto, <i>On some properties of orthogonal Weingarten functions</i>, J. Math. Phys. <b>50</b> (2009), no. 11, 113516, 14. <a href=https://arxiv.org/abs/0903.5143>Available on arXiv.</a></li>
+    <li>If you are interested in how this theory works for compact quantum groups, besides following the references in Section 2.4 of the survey above, you could look at the following paper: Teodor Banica and Roland Speicher, <i>Liberation of orthogonal Lie groups</i>, Adv. Math. <b>222</b> (2009), no. 4, 1461-1501. <a href=https://arxiv.org/abs/0808.2628>Available on arXiv.</a></li>
+</ul>
+</p>
+
+<h4>Free probability</h4>
+
+<p>
+Analytic approach: R-transforms and S-transforms, which play the same role in free probability that characteristic functions to in classical probability. Essential for extending free probability beyond the world of moments and compactly supported measures.
+<ul>
+    <li>James A. Mingo and Roland Speicher, <i>Free probability and random matrices</i>, Fields Institute Monographs, vol. 35, Springer, New York; Fields Institute for Research in Mathematical Sciences, Toronto, ON, 2017. <a href=https://mast.queensu.ca/~mingo/mingo_speicher_2017.pdf>Freely available online.</a> Chapter 3 is a very detailed account of the machinery of R-transforms.</li>
+    <li>D. V. Voiculescu, K. J. Dykema, and A. Nica, <i>Free random variables</i>, CRM Monograph Series, vol. 1, American Mathematical Society, Providence, RI, 1992. This was the first monograph on free probability and it has good material on R-transforms and S-transforms.</li>
+    <li>Alexandru Nica and Roland Speicher, <i>Lectures on the combinatorics of free probability</i>, London Mathematical Society Lecture Note Series, vol. 335, Cambridge University Press, Cambridge, 2006. <a href=https://rolandspeicher.com/wp-content/uploads/2020/06/nica-speicher-book.pdf>Freely available online.</a> Lectures 12 and 16 have good material on the R-transform. Lectures 14, 17, and 18 have good material on products of freely independent variables and the S-transform.</li>
+</ul>
+</p>
+
+<p>
+Combinatorial approach: noncrossing partitions and free cumulants. One highlight of this theory is a formula of Nica and Speicher which describes multiplication of freely independent variables in terms of the lattice structure of noncrossing partitions. A related problem where this approach is truly essential is the study of commutators and anticommutators of freely independent variables.
+<ul>
+    <li>Alexandru Nica and Roland Speicher, <i>Lectures on the combinatorics of free probability</i>, London Mathematical Society Lecture Note Series, vol. 335, Cambridge University Press, Cambridge, 2006. <a href=https://rolandspeicher.com/wp-content/uploads/2020/06/nica-speicher-book.pdf>Freely available online.</a> <b>This is the bible on free cumulants.</b></li>
+    <li>Alexandru Nica and Roland Speicher, <i>Commutators of free random variables</i>, Duke Math. J. <b>92</b> (1998), no. 3, 553-592. <a href=https://arxiv.org/abs/funct-an/9612001>Available on arXiv.</a></li>
+</ul>
+</p>
+
+<p>
+Relationship between classical and free probability: Bercovici-Pata bijection between measures that are infinitely divisible with respect to classical convolution and those that are infinitely divisible with respect to free additive convolution. For example, the gaussian distribution corresponds to the semicircle distribution.
+<ul>
+    <li>Hari Bercovici and Vittorino Pata, <i>Stable laws and domains of attraction in free probability theory</i>, Ann. of Math. (2) <b>149</b> (1999), no. 3, 1023-1060, with an appendix by Phillippe Biane. <a href=https://arxiv.org/abs/math/9905206>Available on arXiv.</a></li>
+</ul>
+</p>
+
+<h4>Finite free probability</h4>
+
+<p>
+Finite free probability is a recent development that has grown out of the breakthrough work of Marcus, Spielman, and Srivastava on two major problems: the existence of Ramanujan graphs (optimal expanders) and the Kadison-Singer problem in operator theory. The basic objects of study are deceptively elementary: real-rooted polynomials with a fixed degree. There is no (known) notion of "finite freeness" but there are good operations of "finite free convolution" which encode the expected characteristic polynomials of sums and products of randomly rotated matrices.
+<ul>
+    <li>Adam W. Marcus, Daniel A. Spielman, and Nikhil Srivastava, <i>Finite free convolutions of polynomials</i>, Probab. Theory Related Fields <b>182</b> (2022), no. 3-4, 807-848. <a href=https://arxiv.org/abs/1504.00350>Available on arXiv.</a></li>
+</ul>
+</p>
+
+<p>
+The initial motivation which led Marcus-Spielman-Srivastava to initiate this theory was the following deep problem in graph theory: are there Ramanujan graphs of every degree and every number of vertices? They managed to prove this in the bipartite case using a probabilistic argument. The key technical point was controlling the roots of certain expected characteristic polynomials, and they did this by developing finitary analogues of important objects in free probability. Here are their graph theory papers:
+<ul>
+    <li>Adam W. Marcus, Daniel A. Spielman, and Nikhil Srivastava, <i>Interlacing families I: bipartite Ramanujan graphs of all degrees</i>, Ann. of Math. (2) <b>182</b> (2015), no. 1, 307-325. <a href=https://arxiv.org/abs/1304.4132>Available on arXiv.</a></li>
+    <li>Adam W. Marcus, Daniel A. Spielman, and Nikhil Srivastava, <i>Interlacing families IV: bipartite Ramanujan graphs of all sizes</i>, SIAM J. Comput. <b>47</b> (2018), no. 6, 2488-2509.<a href=https://arxiv.org/abs/1505.08010>Available on arXiv.</a></li>
+</ul>
+Interlacing Families IV is particularly closely tied to finite free probability, and would be a great starting point for a graph theory project.
+</p>
+
+<p>
+A recent application of finite free probability that could be the basis of an excellent project is related to the asymptotics of repeated differentiation of polynomials. It turns out that free probability provides a clean way to describe this process in the limit, and the connection can be made using ideas from finite free probability.
+<ul>
+    <li>Octavio Arizmendi, Jorge Garza-Vargas, and Daniel Perales, <i>Finite free cumulants: multiplicative convolutions, genus expansion and infinitesimal distributions</i>, Trans. Amer. Math. Soc. <b>376</b> (2023), no. 6, 4383-4420. <a href=https://arxiv.org/abs/2108.08489>Available on arXiv.</a> See Theorem 3.7 for a precise statement of the result described above. This paper proves it in a very clean way, using the "finite free cumulants" introduced by the first and third authors.</li>
+</ul>
+</p>
+
+</body>
+</html>
